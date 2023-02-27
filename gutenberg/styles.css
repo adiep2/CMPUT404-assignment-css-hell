@@ -1,0 +1,24 @@
+/*https://stackoverflow.com/questions/14585101/old-paper-background-texture-with-just-css*/
+body {
+  box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+  background: #f2eecb;
+  
+}
+p, img{
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Apple Chancery, cursive;
+}
+/*https://dev.to/debadeepsen/vintage-photo-effect-with-css-16oj*/
+img {
+  background-image: 
+  radial-gradient(ellipse, #0000, #0007),
+  linear-gradient(0deg, #9725, #9725);
+  filter: blur(0.05rem) saturate(0.7) contrast(1.5) brightness(1.2);
+}

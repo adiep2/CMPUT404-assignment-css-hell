@@ -1,0 +1,87 @@
+.flex-container {
+  display: flex;
+  text-align: center;
+  height: 100%;
+  background-image: url(lightningbolt.png);
+}
+
+.flex-child-left {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 70%;
+  align-items: center; 
+  justify-content: center;
+  text-align: left;
+}
+
+.flex-child-child {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  width: 70%;
+  align-items: center; 
+  justify-content: center;
+  background: #ee6eca;
+}
+
+.flex-child-right {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 30%;
+  align-items: center; 
+  justify-content: center;
+  text-align: left;
+  background: #f6cc27;
+}
+
+.header {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  background: #2b3ffb;
+  width: 100%;
+  margin: 0;
+  height: 25vh;
+  align-items: center; 
+  justify-content: center;
+  filter: blur(2px);
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  background: #f7d829;
+  min-width: 100%;
+  min-height: 50%;
+  align-items: center; 
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  background: white;
+}
+
+html {
+  background: #04699d;
+}
+
+p {
+  width: 60%;
+}
+
+ul {
+  font-size: 20pt;
+  text-align: left;
+}
+
+img {
+  width: 20%;
+  margin: 1em;
+}

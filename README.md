@@ -21,4 +21,5 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+In the gutenberg documents I only linked styles.css, no other changes were made to the html file
 
